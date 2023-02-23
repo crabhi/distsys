@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "distsys"
+version = "0.1.0"
+description = ""
+authors = ["Filip Sedlák <filip@sedlakovi.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+echo1 = 'echo.echo1:main'
