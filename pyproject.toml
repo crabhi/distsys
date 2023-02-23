@@ -18,3 +18,4 @@ build-backend = "poetry.core.masonry.api"
 echo1 = 'echo.echo1:main'
 ch2 = 'challenge2.a:main'
 ch3a = 'challenge3.a:main'
+ch3b = 'challenge3.b:main'
